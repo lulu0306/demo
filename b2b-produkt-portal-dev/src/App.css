@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+
+body,html{
+  position: relative;
+  min-height: 100%;
+  height: unset;
+}
+
+
+main {
+  background-color: #f5f5f5;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+/* color for link */
+a {
+  color: #2185d0;
+}
