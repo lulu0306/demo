@@ -91,14 +91,20 @@ max-width: 540px;
 }
 }
 
-
-
-@media only screen and (min-width: 1201px) {
-.masonry.container {
--moz-column-count: 3;
--webkit-column-count: 3;
-column-count: 3;
+/* 3 small columns */
+@media only screen and  (min-width: 760px){
+    .masonry.container {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+    .masonry.container{
+        max-width: 720px;
+    }
 }
+
+/* 3 large columns */
+@media only screen and (min-width: 1201px) {
 .ui.card{
 width: 360px;
 }
